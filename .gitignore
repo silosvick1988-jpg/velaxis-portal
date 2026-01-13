@@ -1,0 +1,27 @@
+# Credentials and sensitive files
+/includes/config_local.php
+/config_local.php
+
+
+# Logs
+/logs/*.log
+/logs/*.log.*
+*.log
+
+# User uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
